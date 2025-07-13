@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+    <label for="name">Full Name </label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+  <br> <br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="enter your email" id="email" name="email" required>
+
+    <br> <br>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="enter your password" id="password" name="password" required>
+
+    <br> <br>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" placeholder="confirm your password" id="confirm-password" name="password" required>
+
+    <br> <br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+
+  <br> <br>
+    <label>Interests:</label>
+    <input type="checkbox" name="Interests" value="coding"> Coding
+    <input type="checkbox" name="Interests" value="gaming"> Gaming
+    <input type="checkbox" name="Interests" value="reading"> Reading
+
+    <br> <br>
+
+  <label for="country">Country:</label>
+  <select id="country" name="country">
+    <option value="india">India</option>
+    <option value="usa">Usa</option>
+    <option value="germany">Germany</option>
+  </select>
+  <br> <br>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" min="0" required>
+<br><br>
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio"></textarea>
+  </textarea>
+
+  <br> <br>
+
+  <button type="submit">Submit</button>
+
+    </form>
+    </div>
+    
+    <div id="output" class="output">
+      
+      <h2>This is your info my guy:-</h2>
+    <div class="output-box">
+      <p><strong>Name: </strong><span id="out-name"></span></p>
+      <p><strong>Email: </strong><span id="out-email"></span></p>
+      <p><strong>Age: </strong><span id="out-age"></span></p>
+      <p><strong>Gender: </strong><span id="out-gender"></span></p>
+      <p><strong>Interests: </strong><span id="out-interests"></span></p>
+    </div>
+      
+   
+    
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

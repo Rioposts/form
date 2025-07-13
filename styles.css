@@ -1,0 +1,26 @@
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+form{
+  background-color: aqua;
+  border: solid black;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 150px;
+}
+
